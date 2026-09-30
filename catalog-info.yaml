@@ -1,0 +1,15 @@
+# Backstage catalog entry — discovered by https://backstage.captainapp.co.uk
+# (captain-k3s GitHub App). Edit freely: type, lifecycle, system, owner, links.
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: flutter-chatgpt-clone
+  description: "Flutter ChatGpt Clone Complete Functional Web App with Clean Architecture"
+  annotations:
+    github.com/project-slug: Captain-App/flutter-chatgpt-clone
+  tags:
+    - fork
+spec:
+  type: library
+  lifecycle: deprecated
+  owner: group:default/captain-app
